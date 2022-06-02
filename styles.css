@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Raleway:wght@300&family=Tienne:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    color:#777
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover{
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.big-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/cello.jpg");
+    background-blend-mode: multiply;
+    padding: 0 0 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vw;
+    min-height: 1100px;
+}
+
+.small-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/quartet.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.small-header-2 {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/cello2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    margin: .5em;
+    font-size: 4em;
+    font-family: 'Emblema One', cursive;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.title-large {
+    font-size: 10em;
+}
+
+
+.lesson-button {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.lesson-button-font {
+    font-size: 3.5em;
+    font-weight: bold;
+    border-radius: 12px;
+    margin: .5em;
+    background-color: rgba(0, 0, 0, .6);
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.lesson-button-font:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-section {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Tienne', serif;
+    font-size: 2.2em;
+    color: #333;
+}
+
+.small-section-header {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Tienne', serif;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.code-image {
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 50%
+}
+
+.main-footer {
+    background-color:rgba(50, 100, 200);
+    color: black;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 75px;
+    height: 75px;
+}
+
+.event-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.event-row:last-child {
+    border: none;
+}
+
+.event-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.event-date {
+    color: #555;
+    width: 19%;
+    font-weight: bold;
+}
+
+.event-time {
+    width: 24%;
+}
+
+.event-arena {
+    width: 42%;
+}
+
+.event-status {
+    max-width: 11%;
+}
